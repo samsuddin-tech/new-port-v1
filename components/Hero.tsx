@@ -144,9 +144,14 @@ const Hero = () => {
                         </div>
                      </div>
 
-                     <button className="w-full mt-6 py-3 bg-slate-900 text-white rounded-xl font-bold text-sm hover:bg-brand-600 transition-colors">
+                     <a
+                        href="https://www.instagram.com/mr._khan_021/?utm_source=qr&igsh=d29jaXVhMnRoZHEx#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-full mt-6 py-3 bg-slate-900 text-white rounded-xl font-bold text-sm hover:bg-brand-600 transition-colors flex items-center justify-center"
+                     >
                         Follow for Growth
-                     </button>
+                     </a>
                   </div>
                </div>
 

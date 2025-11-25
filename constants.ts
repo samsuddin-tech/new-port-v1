@@ -12,7 +12,8 @@ import {
   MapPin,
   Megaphone,
   Video,
-  Palette
+  Palette,
+  Facebook
 } from 'lucide-react';
 import { Education, Experience, Project, Skill, SocialLink } from './types';
 
@@ -83,6 +84,8 @@ export const EDUCATION: Education = {
 
 export const SOCIALS: SocialLink[] = [
   { platform: "LinkedIn", url: "https://www.linkedin.com/in/samsuddin-khan-8b0b6b283", icon: Linkedin, text: "Connect on LinkedIn" },
+  { platform: "Instagram", url: "https://www.instagram.com/mr._khan_021/?utm_source=qr&igsh=d29jaXVhMnRoZHEx#", icon: Instagram, text: "Follow on Instagram" },
+  { platform: "Facebook", url: "https://www.facebook.com/share/1Bh8Uw3QhL/", icon: Facebook, text: "Connect on Facebook" },
   { platform: "Email", url: "mailto:samsuddin79786@gmail.com", icon: Mail, text: "samsuddin79786@gmail.com" },
   { platform: "Phone", url: "tel:7978333899", icon: Phone, text: "+91 7978333899" },
 ];
