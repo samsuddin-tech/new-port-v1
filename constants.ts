@@ -1,14 +1,14 @@
-import { 
-  Instagram, 
-  PenTool, 
-  BarChart3, 
-  Users, 
-  Code2, 
-  Cpu, 
-  Layers, 
-  Linkedin, 
-  Mail, 
-  Phone, 
+import {
+  Instagram,
+  PenTool,
+  BarChart3,
+  Users,
+  Code2,
+  Cpu,
+  Layers,
+  Linkedin,
+  Mail,
+  Phone,
   MapPin,
   Megaphone,
   Video,
@@ -25,7 +25,7 @@ export const RESUME_DATA = {
     phone: "7978333899",
     email: "samsuddin79786@gmail.com",
     location: "Bhubaneswar, Odisha",
-    linkedin: "linkedin.com/samsuddin-khan"
+    linkedin: "https://www.linkedin.com/in/samsuddin-khan-8b0b6b283"
   }
 };
 
@@ -82,7 +82,7 @@ export const EDUCATION: Education = {
 };
 
 export const SOCIALS: SocialLink[] = [
-  { platform: "LinkedIn", url: "https://linkedin.com/in/samsuddin-khan", icon: Linkedin, text: "Connect on LinkedIn" },
+  { platform: "LinkedIn", url: "https://www.linkedin.com/in/samsuddin-khan-8b0b6b283", icon: Linkedin, text: "Connect on LinkedIn" },
   { platform: "Email", url: "mailto:samsuddin79786@gmail.com", icon: Mail, text: "samsuddin79786@gmail.com" },
   { platform: "Phone", url: "tel:7978333899", icon: Phone, text: "+91 7978333899" },
 ];
